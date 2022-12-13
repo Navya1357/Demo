@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RetryFailedTests" verbose="1" >
+<listeners>
+        <listener class-name="TestNGScripts.AnnotationTransformer"/>
+  </listeners>
+  <test name="RetryMulitple">
+    <classes>
+      <class name="TestNGScripts.Test001"/>
+    </classes>
+  </test>
+</suite>
