@@ -14,6 +14,6 @@ public class Sample_Login {
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("admin");		
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("123qwe");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-	}
+	
 }
 }
